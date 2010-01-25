@@ -1,9 +1,10 @@
 # jQuery Star Wipe: Why eat hamburger when you can have steak? #
 [http://benalman.com/projects/jquery-starwipe-plugin/](http://benalman.com/projects/jquery-starwipe-plugin/)
 
-Version: 1.1, Last updated: 1/10/2010
+Version: 1.2, Last updated: 1/25/2010
 
 With jQuery Star Wipe you can enable the single best transition ever created, the star wipe, in any recent WebKit browser!
+In other browsers, an alpha mask is used to recreate the effect, albeit not as beautifully
 
 Visit the [project page](http://benalman.com/projects/jquery-starwipe-plugin/) for more information and a usage example!
 
@@ -27,11 +28,10 @@ tested with, and what browsers it has been tested in.
 1.3.2
 
 ### Browsers Tested ###
-Chrome 3, Safari 4.
-
+Chrome 3, Safari 4. A PNG mask is used in Firefox 3, IE 8, Opera 9
 
 ## Release History ##
-
+1.2 - (1/25/2010) Support added to other browsers by way of PNG mask
 1.1 - (1/10/2010) Transition can now be canceled by pressing the back button at any point after starting it.  
 1.0 - (10/9/2009) Initial release
 
