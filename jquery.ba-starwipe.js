@@ -108,7 +108,7 @@
       // This determines the maximum mask size to animate the mask to.
       max = Math.max( win.width(), win.height() ) * 3.5,
 
-      frame_css, mask, maskbox, covers,
+      frame_css, maskele, maskbox, covers,
 	  
       // Create the IFRAME!
       iframe = $('<iframe/>');
@@ -179,10 +179,10 @@
             var ww = win.width(), wh = win.height();
             var chunky = '<div class=ch id=cleft></div><div class=ch id=cright></div><div class=ch id=ctop></div><div class=ch id=cbot></div><div id=maskbox><img height="100%" width="100%" src="' + alphamask + '" id=mask></div>';
             body.append(chunky);
-            mask = $('#mask'); 
+            maskele = $('#mask'); 
 			maskbox = $('#maskbox');
 			covers = $('div.ch');
-            mask.css({
+            maskele.css({
                 zIndex: 9999
             });
 			// Covers/curtains. Top, bottom, left and right
